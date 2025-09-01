@@ -1,0 +1,134 @@
+body {
+    background: #1a1a2e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #0d0d1a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #ff4d4d;
+}
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav .dashboard-btn {
+    background: #ff4d4d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.stat {
+    background: #2a2a3e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.stat span:first-child {
+    font-size: 14px;
+    color: #ccc;
+}
+.stat span:nth-child(2) {
+    font-size: 24px;
+    color: #ff4d4d;
+    margin: 5px 0;
+}
+.stat a {
+    color: #ff4d4d;
+    text-decoration: none;
+    font-size: 12px;
+}
+.account {
+    background: #2a2a3e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.account label {
+    display: block;
+    margin-bottom: 5px;
+}
+.account input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3a3a4e;
+    color: #fff;
+}
+.account button {
+    padding: 8px 15px;
+    background: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.account p {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 5px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.option {
+    background: #2a2a3e;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+.option span {
+    color: #ff4d4d;
+    font-size: 18px;
+}
+.option p {
+    color: #ccc;
+    font-size: 14px;
+}
+.docs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.docs p {
+    color: #ccc;
+}
+.docs a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+.logout {
+    text-align: center;
+}
+.logout a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
