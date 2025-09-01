@@ -1,2 +1,0 @@
-# obumahavedih
-obuma have dih
